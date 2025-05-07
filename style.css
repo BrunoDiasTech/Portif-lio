@@ -28,23 +28,20 @@ body {
     padding: 40px 20px;
   }
 
-  .container {
-    margin-top: 5em;
-  }
-  .imagem {
-    height: 20em;
-    width: 20em;
-  }
-
   .img-bruno {
     height: 100%;
     width: 100%;
-    border-radius: 50%;
+    border-radius: 1em;
+    position: relative;
+    right: 18em;
+    bottom: 3em;
   }
 
   .warpper {
     display: flex;  
-    gap: 30em;
+    position: relative;
+    top: 3em;
+  
   }
   .desenvolvedor {
     font-size: 2em;
@@ -54,7 +51,7 @@ body {
   }
 
   .mensage-welcome{
-    width: 35em;
+    width: 60%;
     margin-top: 2em;
     font-size: 1.2em;
     text-align: justify;
