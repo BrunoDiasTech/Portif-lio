@@ -1,0 +1,112 @@
+*{
+  color: #ccc;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #333, #000);
+  }
+  
+  header {
+    background-color: #333;
+    padding: 10px 20px;
+    color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    color: #ccc;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 40px 20px;
+  }
+
+  .container {
+    margin-top: 5em;
+  }
+  .imagem {
+    height: 20em;
+    width: 20em;
+  }
+
+  .img-bruno {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  .warpper {
+    display: flex;  
+    gap: 30em;
+  }
+  .desenvolvedor {
+    font-size: 2em;
+    margin: 0;
+    text-align: justify;
+    word-spacing: 0.2em;
+  }
+
+  .mensage-welcome{
+    width: 35em;
+    margin-top: 2em;
+    font-size: 1.2em;
+    text-align: justify;
+    word-spacing: 0.2em;
+  }
+  .apresentacao {
+    margin: 0;
+    text-align: justify;
+    word-spacing: 0.2em;
+  }
+
+  .ideias {
+    margin: 0;
+    text-align: justify;
+    word-spacing: 0.2em;
+  }
+
+  span {
+    font-weight: bold;
+  }
+  
+  #projetos .projetos-lista {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .projeto {
+    border: 1px solid #ccc;
+    padding: 15px;
+    flex: 1;
+    text-align: justify;
+    word-spacing: 0.2em;
+  }
+
+  .skils, .skils-text {
+    text-align: justify;
+    word-spacing: 0.2em;
+  }
+  
+  .warpper-contato {
+    display: flex;
+    height: 4em;
+    width: 20em;
+    gap: 2em;
+  }
+
+  .warpper-contato img {
+    height: 100%;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+  }
